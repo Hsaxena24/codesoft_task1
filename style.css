@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f5f7ff, #e8edff);
+    color: #222;
+}
+header {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #1e293b, #3b4cca);
+    color: white;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+    nav {
+    text-align: center;
+    padding: 18px;
+    background: #111827;
+}
+
+nav a {
+    margin: 0 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #a5b4fc;
+}
+
+
+
+section {
+    padding: 50px 10%;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+.project {
+    background: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+.project img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.project p {
+    color: #555;
+}
+form {
+    max-width: 600px;
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    background: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#about img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+#skills {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+#skills li {
+    background: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#skills li:hover {
+    transform: translateY(-4px);
+}
